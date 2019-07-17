@@ -10,7 +10,7 @@ client.on('ready' , () => {
     console.log("Connected as " + client.user.tag)
     console.log("Ready!")
 
-    client.user.setActivity("Hentai", {type: "WATCHING"})
+    client.user.setActivity("YOU!", {type: "WATCHING"})
 
     client.guilds.forEach((guild) => {
         guild.channels.forEach((channel) => {
@@ -19,8 +19,7 @@ client.on('ready' , () => {
     })
 })
 
-const nibb = ['being the big spoon', 'being the little spoon', 'BIG SLEEP', 'matcha', 'pwu$$y', 'ABGs', 'black coffee', 'BBC', 'THOTS', 'being bottom', 'the wristy twisty hyuk hyuk', 'peeze chizza', 'some strange', 'the BOYS!!!', 'pressin that B button', 'anime tiddies', 'facebook memes :(',
-                 'drinking too many mimosas at brunch'];
+const nibb = ['enter items here'];
 
 function newRando() {
     const randomer = nibb[Math.floor(Math.random()*nibb.length)];
