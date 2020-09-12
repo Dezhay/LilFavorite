@@ -17,7 +17,7 @@
   "homepage": "https://github.com/Dezhay/LilFavorite#readme",
   "dependencies": {
     "discord.js": "^11.5.1",
-    "node-fetch": "^2.6.0",
+    "node-fetch": "^2.6.1",
     "ytdl-core": "^0.29.2"
   },
   "devDependencies": {},
